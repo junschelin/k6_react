@@ -1,0 +1,7 @@
+@media (prefers-reduced-motion: no-preference) {
+    .hr {
+      animation: App-logo-spin infinite 20s linear;
+      background-color: none;
+      position: relative;
+    }
+  }

@@ -1,0 +1,28 @@
+.hellomain{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.lg{
+    width: 400px;
+    height: 400;
+}
+
+.ch1{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .lg {
+      animation: App-logo-spin infinite 20s linear;
+      background-color: none;
+      position: relative;
+    }
+  }
